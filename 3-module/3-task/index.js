@@ -8,7 +8,7 @@ function camelize(str) {
     if (item !== '-') {
       return item;
     } else {
-      const nextIndex = index + 1;
+      const nextIndex = ++index;
       array[nextIndex] = array[nextIndex].toUpperCase();
     }
   }).join('');
