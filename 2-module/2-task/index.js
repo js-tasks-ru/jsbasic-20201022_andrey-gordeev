@@ -4,5 +4,11 @@
  * @returns {Boolean}
  */
 function isEmpty(obj) {
-  // ваш код...
+  for (const key in obj) {
+    if (true) {
+      return false;
+      break;
+    }
+  }
+  return true;
 }
